@@ -1,0 +1,52 @@
+.navbar {
+  box-shadow: 2px 2px 5px #149179;
+  opacity: 0.9;
+  background: #ffffff; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 1.4rem; }
+    .navbar .nav-item .nav-link {
+      color: #000000;
+      border-radius: 20px;
+      transition: background 0.4s, color 0.4s;
+      -webkit-transition: background 0.4s, color 0.4s; }
+    .navbar .nav-item .nav-link:hover {
+      color: #ffffff;
+      background: #149179;
+      border-radius: 20px;
+      transition: background 0.4s, color 0.4s;
+      -webkit-transition: background 0.4s, color 0.4s; }
+
+.brand-name {
+  font-family: Lobster Two !important;
+  font-size: 300%;
+  font-weight: 400;
+  color: #149179; }
+
+#showcase {
+  position: relative;
+  background: url(/img/header-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(22, 160, 133, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.main-header-subtext {
+  width: 60%;
+  margin: auto; }
+
+.info-header {
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px #dddddd solid; }
+
+#footerSocialBar {
+  background: #149179; }
+
+/*# sourceMappingURL=style.css.map */
