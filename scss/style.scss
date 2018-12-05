@@ -1,5 +1,11 @@
-$primary: #149179;
-$primary-overlay: rgba(22, 160, 133, 0.8);
+// $primary: #149179;
+// $primary-overlay: rgba(22, 160, 133, 0.8);
+$primary: #2980b9;
+$primary-overlay: rgba(41, 128, 185, 0.8);
+// $primary: #003171;
+// $primary-overlay: rgba(0, 49, 113, 0.8);
+// $primary: #d35400;
+// $primary-overlay: rgba(211, 84, 0, 1.0);
 
 .navbar {
     box-shadow: 2px 2px 5px $primary;
@@ -10,8 +16,9 @@ $primary-overlay: rgba(22, 160, 133, 0.8);
         font-size: 1.2rem;
         padding-right: 1.4rem;
 
-        .nav-link {
-            color: #000000;
+        .active-page {
+            color: #ffffff !important;
+            background: $primary;
             border-radius: 20px;
             transition: background 0.4s,
                 color 0.4s;
@@ -19,15 +26,27 @@ $primary-overlay: rgba(22, 160, 133, 0.8);
                 color 0.4s;
         }
 
+        .nav-link {
+            color: #000000;
+            border-radius: 20px;
+            transition: background 0.4s,
+                color 0.4s;
+            -webkit-transition: background 0.4s,
+                color 0.4s;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
         .nav-link:hover {
             color: #ffffff;
-            // border-bottom: 2px $primary solid;
             background: $primary;
             border-radius: 20px;
             transition: background 0.4s,
                 color 0.4s;
             -webkit-transition: background 0.4s,
                 color 0.4s;
+            padding-left: 25px;
+            padding-right: 25px;
         }
     }
 }
@@ -42,6 +61,7 @@ $primary-overlay: rgba(22, 160, 133, 0.8);
 #showcase {
     position: relative;
     background: url(/img/header-bg.jpg);
+    // background: url(/img/main-bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 600px;
