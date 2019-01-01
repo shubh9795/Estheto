@@ -46,6 +46,8 @@ $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 // $estheto-primary:#149179 !default;
 $estheto-primary:#2980b9 !default;
+$estheto-dark-primary:#1a5073 !default;
+$estheto-light-primary: #4ea1d8 !default;
 // $estheto-primary:#003171 !default;
 // $estheto-primary:#d35400 !default;
 
@@ -78,9 +80,9 @@ $dark: $gray-800 !default;
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(("primary": $primary,
-"secondary": $secondary,
+"secondary": $estheto-dark-primary,
 "success": $success,
-"info": $info,
+"info": $estheto-light-primary,
 "warning": $warning,
 "danger": $danger,
 "light": $light,
